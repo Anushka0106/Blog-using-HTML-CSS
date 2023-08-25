@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.navigation {
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+margin-top: 23px;
+position: sticky;
+}
+
+.nav-left {
+    font-size: 38px;
+    display: flex;
+    position: sticky;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 30px;
+}
+
+.nav-left ul li  {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+    font-size:38 px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nav-right {}
+
+.content {
+    height: 395px;
+    /* background-color: rgb(226, 226, 238); */
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cD8lV9uujZD-KayjB9WEJccC-6LIuiJocipRpqqYsA&s"); */
+    position: relative;
+
+}
+.content::after{
+    content: "";
+    background-image: url("https://thumbs.dreamstime.com/z/publication-newspaper-journal-books-background-catalog-design-article-magazine-press-tablet-210161964.jpg");
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    border-radius: 18px;
+    opacity: 0.2;
+}
+
+
+
+.content-left {
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+
+
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+
+padding-top: 18px;
+margin-top: 23px;
+background-color: rgb(234, 210, 210,0.5);
+
+/* background-color: bisque; */
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+
+}
+.home-article img{
+    width: 328px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0px 26px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    height: 50px;
+    background-color:var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-bg-color);
+    flex-direction: column;
+}
+.footer a {
+    color: black;
+    background-color: var(--main-bg-color);
+
+}
